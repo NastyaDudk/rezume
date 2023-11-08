@@ -49,6 +49,14 @@ body {
   
 }
 
+.about-me{
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: small;
+    font-weight: 400px;
+    color: #1D1D1D;
+}
+
 .header-header{
     background: #fff;
     border-bottom: 1px solid #e7e9fc;
@@ -81,7 +89,7 @@ body {
  .main-info{
     height: 1000px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
-    url(../images/main.jpg);
+    url(../images/backballet.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -179,7 +187,7 @@ body {
     }
 
     .main-info{
-      height: 600px;
+      height: 800px;
     }
 
     .about-me{
