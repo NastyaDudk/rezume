@@ -28,33 +28,50 @@
 
     <div class="header-container container">
 
-      <h1 class="my-name">Anastasia Dudka</h1>
+      <div class="my-name-here">
 
-      <p class="my-profession">choreographer</p>
+        <h1 class="my-name">Anastasia Dudka</h1>
+
+        <p class="my-profession">choreographer</p>
+      </div>
 
 
-      <address class="address">
+      <div class="my-list">
+        <ul class="all-about">
+          <li class="all-about-item"><a href="#personal" class="info-item">Information</a></li>
+          <li class="all-about-item"><a href="#education" class="info-item">Education</a></li>
+          <li class="all-about-item"><a href="#videos" class="info-item">My videos</a></li>
+          <li class="all-about-item"><a href="#experience" class="info-item">Work Experience</a></li>
 
-        <ul class="add-contacts">
-          <li><a class="ma-tel" href="mailto:sopiloka@gmail.com">
-            <p>Email</p>
-              <svg class="f-icon-box" width="45" height="40">
-                <use class="icons" href="./images/icons.svg#icon-email">
-                </use>
-              </svg>
-            </a>
-          </li>
-          <li><a class="ma-tel" href="tel:+380500145602">
-            <p>Telephone</p>
-              <svg class="f-icon-box" width="30" height="25">
-                <use class="icons" href="./images/icons.svg#icon-phone">
-                </use>
-              </svg>
-            </a>
-          </li>
         </ul>
 
-      </address>
+      </div>
+
+      <div class="header-contact">
+        <address class="address">
+
+          <ul class="add-contacts">
+            <li><a class="ma-tel" href="mailto:sopiloka@gmail.com">
+                <p class="high-contacts">E-mail</p>
+                <svg class="f-icon-box" width="30" height="40">
+                  <use href="./images/icons.svg#icon-email">
+                  </use>
+                </svg>
+              </a>
+            </li>
+            <li><a class="ma-tel" href="tel:+380500145602">
+                <p class="high-contacts">Telephone</p>
+                <svg class="f-icon-box-tel" width="30" height="20">
+                  <use href="./images/icons.svg#icon-phone">
+                  </use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+
+        </address>
+
+      </div>
 
     </div>
   </header>
@@ -76,41 +93,90 @@
           it always pays off with
           interesting offers from employers.
         </h2>
+      </div>
 
 
+      <div class="my-skills">
+
+        <div class="tech-here">
+          <h3 class="tech-title">Tech skills</h3>
+          <ul class="skills-list">
+            <li class="skills-list-item">Folk Dance</li>
+            <li class="skills-list-item">Classical dance</li>
+            <li class="skills-list-item">Contemporary</li>
+            <li class="skills-list-item">Hip hop</li>
+            <li class="skills-list-item">Ballroom dance</li>
+          </ul>
+        </div>
+
+
+        <div class="soft-here">
+
+          <h3 class="soft-title">Soft skills</h3>
+          <ul class="skills-list">
+            <li class="skills-list-item">Teamwork</li>
+            <li class="skills-list-item">Solo</li>
+          </ul>
+
+
+        </div>
       </div>
 
     </section>
 
 
+    <section id="personal">
+
+      <div class="personal container">
+
+        <h3 class="main-content-title">Personal Information</h3>
+
+        <ul class="personal-info">
+          <li class="personal-info-item">Nationality:<span> Ukrainian</span></li>
+          <li class="personal-info-item">City:<span> Kharkiv</span></li>
+          <li class="personal-info-item">Date of Birth:<span> 08.02.1996</span></li>
+          <li class="personal-info-item">Height:<span> 170cm</span></li>
+          <li class="personal-info-item">Chest girth:<span> 89cm</span></li>
+          <li class="personal-info-item">Hip girth:<span> 88cm</span></li>
+          <li class="personal-info-item">Waist circumference:<span> 63cm</span></li>
+          <li class="personal-info-item">Weight:<span> 55kg</span></li>
+        </ul>
+    </section>
+
+
     <!-- Education -->
 
-    <section class="education-info">
+    <section class="education-info" id="education">
       <div class="study-expirience container">
         <h3 class="main-content-title">Education</h3>
 
+        <ul class="ed-list">
+          <li class="ed-list-item">
+            <h4 class="study-expirience-position">National Academy Of Culture And Arts Management
+              <span>"Choreographer"</span>
+            </h4>
 
-        <h4 class="study-expirience-position">National Academy Of Culture And Arts Management
-          Choreographer
-        </h4>
+            <ul class="study-duties-list">
 
-        <ul class="study-duties-list">
+              <li>in June/2016 completed the full course</li>
+              <li>obtained Bachelor's Degree</li>
+              <li>field of study Choreography </li>
 
-          <li>in June/2016 completed the full course</li>
-          <li>obtained Bachelor's Degree</li>
-          <li>field of study Choreography </li>
+            </ul>
 
+          </li>
+
+          <li class="ed-list-item">
+            <h4 class="study-expirience-position"> Kiev Municipal Ukrainian Academy Of Dance named Serge Lifar
+
+             <span>"Folk dance artist"</span>
+
+            </h4>
+
+            <p class="study-period">2010-2014/ Ukraine</p>
+
+          </li>
         </ul>
-
-
-        <h5 class="study-expirience-position"> Kiev Municipal Ukrainian Academy Of Dance named Serge Lifar
-
-          Folk dance artist
-
-        </h5>
-
-        <p class="study-period">2010-2014/ Ukraine</p>
-
       </div>
     </section>
 
@@ -118,39 +184,12 @@
 
 
     <!-- My videos -->
-    <section class="video-foto">
+    <section class="video-foto" id="videos">
       <div class="my-videos container">
 
         <h3 class="main-content-title">My videos</h3>
 
         <ul class="video-list">
-
-          <li class="video-item">
-            <div class="foto-picture">
-
-              <picture>
-                <source srcset="./images/promo1.jpg 2x" media="(min-width:1280)">
-                <source srcset="./images/promo1.jpg 2x" media="(min-width:768)">
-                <source srcset="./images/promo1.jpg 1x" media="(min-width:320)">
-                <img src="./images/promo1.jpg" alt="PROMO VIDEO" class="my-foto">
-              </picture>
-
-
-
-              <p class="foto-par">
-                Promo video
-                <a class="links" href="https://youtu.be/ntagPWpiRuw" class="project-item-link" target="_blank" rel="noopener noreferrer">YouTube</a>
-              </p>
-            </div>
-
-
-
-            <div class="name-foto">
-              <h3 class="my-video">PROMO VIDEO</h3>
-            </div>
-
-          </li>
-
 
 
           <li class="video-item">
@@ -168,12 +207,21 @@
 
               </picture>
 
-              <p class="foto-par">
+              <div class="video-in-miiddle">
 
-                CONTEMPORARY
+                <p class="foto-par">
 
-                <a class="links" href="https://youtu.be/ntagPWpiRuw" class="project-item-link" target="_blank" rel="noopener noreferrer">YouTube</a>
-              </p>
+
+
+                  <a class="links" href="https://www.youtube.com/watch?v=shGqjNvQ_gY" class="project-item-link"
+                    target="_blank" rel="noopener noreferrer">Click Here</a>
+                  <svg class="v-icons" width="50" height="45">
+                    <use class="icons" href="./images/icons.svg#icon-click">
+                    </use>
+                  </svg>
+                </p>
+              </div>
+
             </div>
 
             <div class="name-foto">
@@ -181,6 +229,39 @@
             </div>
           </li>
 
+
+
+          <li class="video-item">
+            <div class="foto-picture">
+
+              <img src="./images/promo1.jpg" alt="PROMO VIDEO" class="my-foto" srcset="./images/promo1.jpg 2x" media="(min-width:1280),
+                    /images/promo1.jpg 2x" media="(min-width:768),
+                  /images/promo1.jpg 1x" media="(min-width:320)" />
+
+
+
+
+              <div class="video-in-miiddle">
+                <p class="foto-par">
+
+
+                  <a class="links" href="https://youtu.be/ntagPWpiRuw" class="project-item-link" target="_blank"
+                    rel="noopener noreferrer">Click Here</a>
+                  <svg class="v-icons" width="50" height="45">
+                    <use class="icons" href="./images/icons.svg#icon-click">
+                    </use>
+                  </svg>
+                </p>
+              </div>
+            </div>
+
+
+
+            <div class="name-foto">
+              <h3 class="my-video">PROMO VIDEO</h3>
+            </div>
+
+          </li>
 
 
 
@@ -191,21 +272,29 @@
             <div class="foto-picture">
 
               <picture>
-                <source srcset="./images/jazz.jpg 2x" media="(min-width:1280)">
-                <source srcset="./images/jazz.jpg 2x" media="(min-width:768)">
-                <source srcset="./images/jazz.jpg 1x" media="(min-width:320)">
+                <source srcset="./images/fjazz.jpg 2x" media="(min-width:1280)">
+                <source srcset="./images/fjazz.jpg 2x" media="(min-width:768)">
+                <source srcset="./images/fjazz.jpg 1x" media="(min-width:320)">
 
-                <img src="./images/jazz.jpg" alt="JAZZ DANCE" class="my-foto">
+                <img src="./images/fjazz.jpg" alt="JAZZ DANCE" class="my-foto">
 
 
               </picture>
 
-              <p class="foto-par">
+              <div class="video-in-miiddle">
 
-                JAZZ DANCE
+                <p class="foto-par">
 
-                <a href="https://youtu.be/B2wNqS7wEsY" class="project-item-link" target="_blank" rel="noopener noreferrer">YouTube</a>
-              </p>
+
+
+                  <a class="links" href="https://youtu.be/B2wNqS7wEsY" class="project-item-link" target="_blank"
+                    rel="noopener noreferrer">Click Here</a>
+                  <svg class="v-icons" width="50" height="45">
+                    <use class="icons" href="./images/icons.svg#icon-click">
+                    </use>
+                  </svg>
+                </p>
+              </div>
             </div>
 
             <div class="name-foto">
@@ -223,21 +312,28 @@
             <div class="foto-picture">
 
               <picture>
-                <source srcset="./images/castings.jpg 2x" media="(min-width:1280)">
-                <source srcset="./images/castings.jpg 2x" media="(min-width:768)">
-                <source srcset="./images/castings.jpg 1x" media="(min-width:320)">
+                <source srcset="./images/dance from castings.jpg 2x" media="(min-width:1280)">
+                <source srcset="./images/dance from castings.jpg 2x" media="(min-width:768)">
+                <source srcset="./images/dance from castings.jpg 1x" media="(min-width:320)">
 
-                <img src="./images/castings.jpg" alt="VIDEO FROM CASTINGS" class="my-foto">
+                <img src="./images/dance from castings.jpg" alt="VIDEO FROM CASTINGS" class="my-foto">
 
 
               </picture>
 
-              <p class="foto-par">
+              <div class="video-in-miiddle">
 
-                VIDEO FROM CASTINGS
+                <p class="foto-par">
 
-                <a href="https://youtu.be/shGqjNvQ_gY" class="project-item-link" target="_blank" rel="noopener noreferrer">YouTube</a>
-              </p>
+
+                  <a class="links" href="https://www.youtube.com/watch?v=t0hYN6bWuCc" class="project-item-link"
+                    target="_blank" rel="noopener noreferrer">Click Here</a>
+                  <svg class="v-icons" width="50" height="45">
+                    <use class="icons" href="./images/icons.svg#icon-click">
+                    </use>
+                  </svg>
+                </p>
+              </div>
             </div>
 
             <div class="name-foto">
@@ -264,12 +360,20 @@
 
               </picture>
 
-              <p class="foto-par">
+              <div class="video-in-miiddle">
 
-                CHOREO YANIS MARSHAL
+                <p class="foto-par">
 
-                <a href="https://youtu.be/shGqjNvQ_gY" class="project-item-link" target="_blank" rel="noopener noreferrer">YouTube</a>
-              </p>
+
+
+                  <a class="links" href="https://www.youtube.com/watch?v=nuEmQBt7DXc" class="project-item-link"
+                    target="_blank" rel="noopener noreferrer">Click Here</a>
+                  <svg class="v-icons" width="50" height="45">
+                    <use class="icons" href="./images/icons.svg#icon-click">
+                    </use>
+                  </svg>
+                </p>
+              </div>
             </div>
 
             <div class="name-foto">
@@ -287,7 +391,7 @@
 
     <!-- Work Experience -->
 
-    <section class="my-work">
+    <section class="my-work" id="experience">
 
       <div class="work-expirience container">
         <h3 class="main-content-title">Work Experience</h3>
@@ -351,7 +455,8 @@
         <p class="social-m">Social media</p>
         <ul class="f-icons-svg">
           <li class="f-icon-list">
-            <a class="soc-class" href="https://www.instagram.com/nastiukha_dudka/" target="_blank" rel="noopener noreferrer">
+            <a class="soc-class" href="https://www.instagram.com/nastiukha_dudka/" target="_blank"
+              rel="noopener noreferrer">
               <svg class="f-icon-box" width="24" height="24">
                 <use class="icons" href="./images/icons.svg#icon-instagram">
                 </use>
@@ -361,86 +466,47 @@
 
 
           <li class="f-icon-list">
-            <a class="soc-class" href="https://www.facebook.com/profile.php?id=100003970757916" target="_blank" rel="noopener noreferrer">
+            <a class="soc-class" href="https://www.facebook.com/profile.php?id=100003970757916" target="_blank"
+              rel="noopener noreferrer">
               <svg class="f-icon-box" width="24" height="24">
                 <use class="icons" href="./images/icons.svg#icon-facebook">
                 </use>
               </svg>
             </a>
           </li>
+        </ul>
 
 
+        <!-- Contacts -->
+        <div class="skills-row">
+          <ul class="side-bar-content">
+            <li>
+              <h3 class="sidebar-title">Contacts</h3>
 
 
+              <a href="tel:+380500145602" class="contacts-number">+380 50 014 56 02
+                <svg class="f-icon-box" width="30" height="25">
+                  <use class="icons" href="./images/icons.svg#icon-phone">
+                  </use>
+                </svg>
+              </a>
 
 
-          <!-- Contacts -->
-          <div class="skills-row">
-            <ul class="side-bar-content">
-              <li>
-                <h3 class="sidebar-title">Contacts</h3>
-                <p class="contacts-item">
-                  <span class="contacts-type">
-                  </span>
-                  <a href="tel:+380500145602" class="contacts-number">+380 50 014 56 02
-                    <svg class="f-icon-box" width="30" height="25">
-                      <use class="icons" href="./images/icons.svg#icon-phone">
-                      </use>
-                    </svg>
-                  </a>
-                </p>
-                <p class="contacts-item">
-                  <span class="contacts-type">
-                  </span>
-                  <a href="mailto:sopiloka@gmail.com" class="contacts-email">sopiloka@gmail.com
-                    <svg class="f-icon-box" width="50" height="45">
-                      <use class="icons" href="./images/icons.svg#icon-email">
-                      </use>
-                    </svg>
-                  </a>
-                </p>
-              </li>
+              <a href="mailto:sopiloka@gmail.com" class="contacts-email">sopiloka@gmail.com
+                <svg class="f-icon-box" width="50" height="45">
+                  <use class="icons" href="./images/icons.svg#icon-email">
+                  </use>
+                </svg>
+              </a>
 
-              <!-- Tech skills -->
-              <li>
-                <h3 class="sidebar-title">Tech skills</h3>
-                <ul class="skills-list">
-                  <li class="skills-list-item">
-                    <span class="skills-list-text">Folk Dance</span>
-                  </li>
-                  <li class="skills-list-item">
-                    <span class="skills-list-text">Classical dance</span>
-                  </li>
-                  <li class="skills-list-item">
-                    <span class="skills-list-text">Contemporary</span>
-                  </li>
-                  <li class="skills-list-item">
-                    <span class="skills-list-text">Hip hop</span>
-                  </li>
-                  <li class="skills-list-item">
-                    <span class="skills-list-text">ballroom dance</span>
-                  </li>
-                </ul>
-              </li>
-
-              <!-- Soft skills -->
-              <li>
-                <h3 class="sidebar-title">Soft skills</h3>
-                <ul class="skills-list">
-                  <li class="skills-list-item">
-                    <span class="skills-list-text">Teamwork</span>
-                  </li>
-                  <li class="skills-list-item">
-                    <span class="skills-list-text">Solo</span>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </div>
+            </li>
+          </ul>
+          </li>
+          </ul>
+        </div>
       </div>
     </div>
     </div>
-    </aside>
     </div>
 </body>
 
