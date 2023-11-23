@@ -40,6 +40,7 @@ img {
   max-width: 700px;
   padding-left: 16px;
   padding-right: 16px;
+  margin: 0 auto;
   
 }
 
@@ -59,10 +60,13 @@ img {
 .my-name{
   text-align: center;
   padding-top: 25px;
+  padding-left: 35px;
 }
 
 .my-profession{
   text-align: center;
+  margin-top: 5px;
+  padding-left: 40px;
 }
 
 .all-about{
@@ -334,6 +338,7 @@ img {
     max-width: 1200px;
     padding-left: 16px;
     padding-right: 16px;
+    margin: 0 auto;
    
   }
 
@@ -400,6 +405,7 @@ img {
     max-width: 1440px;
     padding-left: 15px;
     padding-right: 15px;
+    margin: 0 auto;
   }
 
   .header-header {
@@ -433,7 +439,7 @@ img {
 
   .my-name {
     text-align: center;
-    padding: 0;
+    padding-left: 30px;
     margin: 0 auto;
     padding-top: 30px;
   }
@@ -488,6 +494,7 @@ img {
   max-width: 1400px;
   padding-left: 20px;
   padding-right:20px;
+  margin: 0 auto;
 }
 
   .about-me {
@@ -507,10 +514,6 @@ img {
   line-height: 1.15;
 }
 
-.address{
-  padding-left: 580px;
-  padding-right: 550px;
-}
 
   /* my videos */
 
