@@ -12,7 +12,6 @@
 body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
-
   background-color: #ffffff;
 }
 
@@ -39,7 +38,7 @@ img {
 }
 
 .container {
-  max-width: 700px;
+  width: 100%;
   padding-left: 16px;
   padding-right: 16px;
   margin: 0 auto;
@@ -54,7 +53,7 @@ img {
 }
 
 .header-header {
-  background: #fff;
+  background-color: #F5F5F5;
   border-bottom: 1px solid #e7e9fc;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
@@ -127,7 +126,7 @@ img {
 }
 
 .main-content-title{
-  color: #2e2f42;
+  color: black;
   text-align: center;
   font-size: 36px;
   font-weight: 700;
@@ -161,16 +160,12 @@ img {
 }
 
 .my-skills{
-  display: flex;
-  gap: 10px;
-  flex-direction: column;
-  flex-wrap: wrap;
-  text-align: right;
+  text-align: start;
   padding: 0px 20px;
-  color:#2e2f42;
+  color: beige;
   font-weight: 600;
   line-height: 1.2;
-  font-size: small;
+  font-size: x-small;
 }
 
 .tech-skills{
@@ -178,9 +173,29 @@ img {
   margin-bottom: 20px;
 }
 
+.tech-here{
+  margin-bottom: 15px;
+}
+
+.tech-title{
+  margin-bottom: 5px;
+  color:bisque;
+}
+
+.soft-title{
+  margin-bottom: 5px;
+  color:bisque;
+}
+
 .soft-skills{
   font-size: 8px;
 } 
+
+.skills-list-item span{
+  font-size: 13px;
+  color: beige;
+  padding: 0px 5px 10px 0px;
+}
 
 /* .visually-hidden {
   position: absolute;
@@ -203,6 +218,7 @@ img {
 .personal-info-item{
   margin-bottom: 10px;
   font-weight: 400;
+  font-weight: 500;
 
 }
 
@@ -251,8 +267,9 @@ img {
     display: flex;
     align-items: center;
     border-radius: 15px 15px 0px 0px;
-    background: linear-gradient(165deg, rgba(253, 253, 255, 0.10) 3.97%, rgba(8, 2, 21, 0.00) 109.76%);
-    backdrop-filter: blur(7.5px);
+   background-color:  #2e2f42;
+    /* background: linear-gradient(165deg, rgba(253, 253, 255, 0.10) 3.97%, rgba(8, 2, 21, 0.00) 109.76%);
+    backdrop-filter: blur(7.5px); */
     height: 100%;
     transform: translateY(100%);
     width: 100%;
@@ -307,7 +324,7 @@ img {
 
 .links{
     text-decoration: none;
-    color: #2e2f42;
+    color:beige;
     font-size: 50px;
     font-weight: 500;
     cursor: pointer;
@@ -333,6 +350,7 @@ img {
 
 .study-expirience-position{
   margin-bottom:30px;
+  color: #2e2f42;
 }
 
 .study-expirience-position span{
@@ -348,17 +366,70 @@ img {
 
 .work-expirience-position{
   margin-bottom: 20px;
+  font-size: 35px;
+  color: #2e2f42;
+
 }
 
 
 .work-duties-list{
   margin-bottom: 20px;
+  line-height: 1.5;
+
 }
+
+.work-expirience-company{
+  color: #003478;
+}
+
+.work-period{
+  margin-bottom: 15px;
+}
+
+.work-list-item{
+  font-size: 25px;
+  padding: 15px;
+  margin-bottom: 60px;
+
+}
+
+.work-list{
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+
+.obligations{
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.footer{
+  background-color: #F5F5F5;
+  height: 200px;
+}
+
+@media screen and (min-width: 500px){
+
+  .container{
+    padding: 0 15px;
+  }
+
+  .my-skills{
+    font-size: 16px;
+    color: beige;
+    line-height: 1.2;
+    padding-left: 50px;
+  }
+}
+
+
 
 
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 1200px;
     padding-left: 16px;
     padding-right: 16px;
     margin: 0 auto;
@@ -371,11 +442,12 @@ img {
     width: 250px;
     font-size: large;
     line-height: 1.2;
+    color: #2e2f42;
   }
 
   .header-container {
     margin-bottom: 30px;
-    margin-top: 40px;
+   
  
   }
 
@@ -395,10 +467,10 @@ img {
 }
 
   .main-content-title{
-    margin-bottom: 72px;
-    margin-top: 150px;
+    margin-bottom: 40px;
     font-size: 40px;
     font-weight: 700px;
+    margin-top: 120px;
 
   }
 
@@ -412,10 +484,15 @@ img {
   margin: 10px 30px 20px 30px;
   font-size: 12px;
  }
-
-  .video-list {
-   gap: 100px;
-  }
+ .video-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin: 0;
+  padding: 0;
+}
 
   /* my videos */
 
@@ -423,19 +500,37 @@ img {
     width: 260px;
     height: 340px;
   }
+  .my-skills{
+    padding-left: 45px;
+    font-size: medium;
+    color: beige;
+    line-height: 1.2;
+  }
+
+  .video-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin: 0;
+    padding: 0;
+  }
+
 }
 
 @media screen and (min-width: 1200px) {
   .container {
-    max-width: 1440px;
-    padding-left: 15px;
-    padding-right: 15px;
+
+    padding-left: 20px;
+    padding-right: 20px;
     margin: 0 auto;
   }
 
   .header-header {
     padding-top: 16px;
     padding-bottom: 16px;
+    background-color: #F5F5F5;
   }
 
   .all-about{
@@ -483,13 +578,13 @@ img {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-    margin-left: 60px;
+    text-align: center;
+    justify-content: center;
   }
 
 
 
   .main-content-title{
-    margin-top: 150px;
     margin-bottom: 72px;
     font-size: 60px;
     font-weight: 700px;
@@ -510,12 +605,35 @@ img {
     display: flex;
     gap: 50px;
   }
+
+  .tech-here{
+    padding-left: 300px;
+
+  }
+  
+
+.my-skills{
+  padding-left: 45px;
+  font-size: large;
+  color: beige;
+  line-height: 1.2;
+}
+
+.video-list {
+  gap: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
 }
 
 @media screen and (min-width: 1440px) {
 
 .container{
-  max-width: 1400px;
+
   padding-left: 20px;
   padding-right:20px;
   margin: 0 auto;
@@ -548,7 +666,6 @@ img {
   }
 
   .main-content-title{
-    margin-bottom: 72px;
     font-size: 70px;
     font-weight: 700px;
   }
@@ -570,13 +687,22 @@ img {
     margin: 10px 50px 500px 900px;
   }
 
-  .tech-here{
-    margin-left: 300px;
-  }
 
   .my-skills{
+    font-size: large;
+    color: beige;
     display: flex;
     flex-wrap: wrap;
-    padding: 20px 80px;
+    line-height: 1.5;
+  }
+
+  .work-list{
+    display: flex;
+    gap: 50px 200px;
+    font-size: 20px;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 160px;
   }
 }
