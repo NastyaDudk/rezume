@@ -129,7 +129,7 @@ img {
 .add-contacts {
   display: flex;
   flex-wrap: wrap;
-  gap: 40px;
+  gap: 30px;
   justify-content: center;
   text-align: center;
   
@@ -250,9 +250,7 @@ img {
   margin-left: 70px;
 }
 
-.f-icon-box-tel{
 
-}
 /* education */
 
 .study-expirience{
@@ -500,17 +498,10 @@ img {
 }
   
 
-
-
-.sm-footer{
-
-}
-
-.social-m{
+.social-m {
   margin-bottom: 30px;
   font-size: 20px;
   line-height: 1.2;
- 
  
 }
 
@@ -597,6 +588,7 @@ img {
     height: 30px;
     padding-right: 100px;
 }
+}
 
 
 
@@ -657,6 +649,7 @@ img {
   margin: 10px 30px 20px 30px;
   font-size: 12px;
  }
+
  .video-list {
   display: flex;
   flex-wrap: wrap;
@@ -696,8 +689,7 @@ img {
   }
 
   .add-contacts{
-    gap: 70px;
-
+    gap: 100px;
   }
 
   .f-icon-box-f {
@@ -739,8 +731,6 @@ img {
   .high-contacts-m{
     font-size: 15px;
   }
-
-
 }
 
 @media screen and (min-width: 1200px) {
