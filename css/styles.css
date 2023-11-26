@@ -65,6 +65,13 @@ img {
  
 }
 
+.high-contacts{
+  margin-bottom: 10px;
+
+}
+
+
+
 .my-profession{
   text-align: center;
   margin-top: 5px;
@@ -104,7 +111,9 @@ img {
 }
 
 
-
+.high-contacts-m{
+  font-size: x-small;
+}
 
 .address {
   display: block;
@@ -123,6 +132,8 @@ img {
   gap: 40px;
   justify-content: center;
   text-align: center;
+  
+
 }
 
 .main-content-title{
@@ -227,18 +238,20 @@ img {
   color: #003478;
 }
 
-.high-contacts{
-  font-size: 20px;
-  font-weight: 400px;
-  font-weight: 400;
+
+.high-contacts-m{
+  margin-bottom: 15px;
 }
+
+
+
 
 .v-icons{
   margin-left: 70px;
 }
 
 .f-icon-box-tel{
-  margin-top: 10px;
+
 }
 /* education */
 
@@ -408,29 +421,135 @@ img {
 
 .footer{
   background-color: #F5F5F5;
-  height: 200px;
+
 }
+
+.contacts-number{
+  text-decoration: none;
+  color: #2e2f42;
+}
+
+.contacts-email{
+  text-decoration: none;
+  color: #2e2f42;
+}
+
+.contacts-number:hover,
+.contacts-number:focus{
+  text-decoration:underline;
+  color:#003478;
+}
+
+.contacts-email:hover,
+.contacts-email:focus{
+  text-decoration:underline;
+  color:#003478;
+}
+
+.soc-class{
+  text-decoration: none;
+  fill: #2e2f42;
+}
+
+.soc-class:hover,
+.soc-class:focus{
+  fill:#003478;
+}
+
 
 .footer-change{
   display: flex;
-  gap: 200px;
-  display: flex;
-  gap: 200px;
-  padding: 70px 15px;
+  gap: 40px;
+  flex-wrap: wrap;
+  padding: 30px;
+  justify-content: center;
+  
 }
+
+.f-icon-box-tel{
+  width: 30px;
+  height: 15px;
+  margin-left: 10px;
+  fill:#2e2f42;
+  margin-bottom: 10px;
+}
+
+.f-icon-box-tel:hover,
+.f-icon-box-tel:focus{
+  fill: #003478;
+}
+
+.f-icon-box{
+  fill:#2e2f42;
+  margin-left: 10px;
+  width: 24px;
+  height: 24px;
+}
+
+.f-icon-box:hover,
+.f-icon-box:focus{
+  fill: #003478;
+}
+
 
 .f-icons-svg{
   display: flex;
   gap: 15px;
+  justify-content: center;
+  
 }
+  
+
+
 
 .sm-footer{
-  padding-left: 20px;
+
 }
 
 .social-m{
-  margin-bottom: 15px;
+  margin-bottom: 30px;
+  font-size: 20px;
+  line-height: 1.2;
+ 
+ 
 }
+
+
+.sidebar-title{
+  font-size: 20px;
+  margin-bottom: 10px;
+  line-height: 1.2;
+  text-align: center;
+  padding-right: 30px;
+
+}
+
+.skills-row{
+  padding-left: 20px;
+}
+
+.side-bar-content{
+  text-align: center;
+}
+
+.f-icon-box-f{
+  padding-top: 30px;
+  width: 50px;
+  height: 45px;
+  fill: #2e2f42;
+
+}
+
+.f-icon-box-f:hover,
+.f-icon-box-f:focus{
+  fill: #003478;
+}
+
+.all-about-item{
+  margin-bottom: 20px;
+
+}
+
 
 @media screen and (min-width: 500px){
 
@@ -444,6 +563,39 @@ img {
     line-height: 1.2;
     padding-left: 50px;
   }
+
+  .sm-footer{
+    padding-left: 80px;
+  }
+
+  .footer-change{
+    padding: 60px;
+  }
+
+  .sidebar-title{
+    font-size: 20px;
+    margin-bottom: 10px;
+    line-height: 1.2;
+}
+
+  .social-m{
+    font-size: 20px;
+    margin-bottom: 30px;
+    line-height: 1.2;
+    padding-right: 90px;
+  }
+
+  .add.contacts{
+    gap: 40px;
+  }
+
+  .add-contacts{
+    gap: 40px;
+  }
+  .f-icons-svg{
+    width: 40px;
+    height: 30px;
+    padding-right: 100px;
 }
 
 
@@ -538,14 +690,64 @@ img {
     padding: 0;
   }
 
+  .footer-change{
+    padding: 50px;
+  
+  }
+
+  .add-contacts{
+    gap: 70px;
+
+  }
+
+  .f-icon-box-f {
+    width: 60px;
+    height: 60px;
+  }
+
+  .f-icon-box{
+    width: 40px;
+    height: 90px;
+  }
+
+  .f-icons-svg{
+    margin-top: 40px;
+  }
+
+  .contacts-number{
+    font-size: 25px;
+  }
+
+  .contacts-email{
+    font-size: 25px;
+  }
+
+  .sidebar-title{
+    font-size: 30px;
+  }
+
+  .social-m{
+    font-size: 30px;
+  }
+
+  .f-icons-svg{
+    width: 40px;
+    height: 30px;
+    padding-right: 80px;
+  }
+
+  .high-contacts-m{
+    font-size: 15px;
+  }
+
+
 }
 
 @media screen and (min-width: 1200px) {
   .container {
-
     padding-left: 20px;
     padding-right: 20px;
-    margin: 0 auto;
+    
   }
 
   .header-header {
@@ -649,6 +851,33 @@ img {
   margin: 0;
   padding: 0;
 }
+
+.footer-change{
+  
+  padding: 100px;
+
+}
+
+.social-m{
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+
+.sidebar-title{
+  font-size: 30px;
+}
+
+.f-icons-svg{
+  padding-right: 80px;
+}
+
+.ma-tel{
+  font-size: 30px;
+}
+
+.f-icon-box-tel{
+  height: 30px;
+}
 }
 
 @media screen and (min-width: 1440px) {
@@ -657,7 +886,7 @@ img {
 
   padding-left: 20px;
   padding-right:20px;
-  margin: 0 auto;
+
 }
 
   .about-me {
@@ -725,5 +954,33 @@ img {
     text-align: center;
     justify-content: center;
     margin-bottom: 160px;
+  }
+
+  .footer-change{
+    padding: 90px;
+  }
+
+  .social-m{
+    margin-bottom: 15px;
+    font-size: 30px;
+    margin-bottom: 10px;
+    line-height: 1.2;
+  }
+  
+  
+  .sidebar-title{
+    font-size: 30px;
+    margin-bottom: 10px;
+    line-height: 1.2;
+  }
+
+  .contacts-number{
+    font-size: 30px;
+    line-height: 1.5;
+  }
+
+  .contacts-email{
+    font-size: 30px;
+    line-height: 1.5;
   }
 }
