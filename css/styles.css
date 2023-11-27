@@ -642,7 +642,7 @@ img {
 
   .main-info {
     height: 600px;
-    margin-bottom: 100px;
+  
   }
 
  .about-me{
@@ -911,9 +911,6 @@ img {
   }
 
 
-  .main-content-title{
-    margin-top: 150px;
-  }
 
   .personal-info{
     font-size: 30px;
